@@ -395,7 +395,7 @@ background-color: #ffffff;
       width:96.5vw;
       height: 150rem;
       position: relative;
-      /* overflow: hidden; */
+      overflow: hidden;
       background: radial-gradient(71.29% 71.29% at 52.53% 45.12%, #007ac4 0%, #0f256e 100%);
     }
     body {
