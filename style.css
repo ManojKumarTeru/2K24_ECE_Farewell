@@ -61,13 +61,13 @@ input {
 border: none;
 }
 body {
-width: 100vh;
+width: 100vw;
 height: auto;
 }.desktop-1-WbR {
 width: 100%;
 height: 100rem;
 position: relative;
-overflow: hidden;
+/* overflow: hidden; */
 background: radial-gradient(71.29% 71.29% at 52.53% 45.12%, #007ac4 0%, #0f256e 100%);
 }
 .desktop-1-WbR .photo2024-03-0600-27-26-removebg-preview-1-zuu {
@@ -387,12 +387,13 @@ background-color: #ffffff;
   width: 50px;
   height: 50px;
   position: absolute;
-  bottom:-340px;
+  /* bottom:-340px; */
+  top: 200px;
 }
 
 @media (max-width: 767px){
   .desktop-1-WbR {
-      width:100vw;
+      width:96.5vw;
       height: 150rem;
       position: relative;
       /* overflow: hidden; */
@@ -585,7 +586,7 @@ background-color: #ffffff;
       width: 6.2rem;
       height: 3.1rem;
       position: absolute;
-      left: 26.5rem;
+      left: 33.5rem;
       top: 82rem;
       font-size: 2rem;
       font-weight: 700;
@@ -626,7 +627,7 @@ background-color: #ffffff;
       width: 5.5rem;
       height: 2.5rem;
       position: absolute;
-      left: 26.5rem;
+      left: 33.5rem;
       top: 85rem;
       font-size: 1.7rem;
       font-weight: 700;
@@ -639,7 +640,7 @@ background-color: #ffffff;
       width: 5.2rem;
       height: 2.5rem;
       position: absolute;
-      left: 26.5rem;
+      left: 33.5rem;
       top: 87rem;
       font-size: 1.7rem;
       font-weight: 700;
@@ -665,7 +666,7 @@ background-color: #ffffff;
       width: 5.5rem;
       height: 2.5rem;
       position: absolute;
-      left: 26.5rem;
+      left: 33.5rem;
       top: 95rem;
       font-size: 1.7rem;
       font-weight: 700;
@@ -708,7 +709,7 @@ background-color: #ffffff;
       position: absolute;
       left:-15rem;
       top: 90rem;
-      background: linear-gradient(177.12deg, #a919df 10.35%, #1d25cb 91.62%);
+      background: linear-gradient(177.12deg, #a768bd 10.35%, #1d25cb 91.62%);
       border-radius: 17.5rem;
     }
     div a .logoo{
@@ -718,7 +719,7 @@ background-color: #ffffff;
       left: 200px;
     }
     .temp{
-      margin-left: 185px;
+      margin-left: 200px;
       width: 50px;
       height: 50px;
       position: absolute;
