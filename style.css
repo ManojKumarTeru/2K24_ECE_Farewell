@@ -747,6 +747,6 @@ background-color: #ffffff;
     box-sizing: border-box;
     backdrop-filter: blur(0.2rem);
     background-color: rgba(217, 217, 217, 0.1000000015);
-    border-radius: 2.5rem;
+    border-radius: 20px;
   }
 }
