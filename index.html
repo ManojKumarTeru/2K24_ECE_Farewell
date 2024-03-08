@@ -5,6 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>College Farewell Party</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        .container {
+            left: 1rem;
+            position: absolute;
+            border-radius: 20px;
+            width: 100%;
+            height: 100vh;
+            /* Set height to full viewport height */
+            overflow: auto;
+            /* Enable scrolling */
+        }
+
+        .long-image {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <!-- <header>
@@ -39,8 +55,12 @@
         <div id="image-container">
             <img class="food" src="food.jpg" alt="Food Image">
         </div>
-        <div class="scrol_bg"></div>
-        <div class="scrollable-text">
+        <div class="scrol_bg">
+            <div class="container">
+                <img class="long-image" src="pic.jpg" alt="Long Image">
+            </div>
+        </div>
+<!--         <div class="scrollable-text">
             <object
             data='EvntCost.pdf'
             type="application/pdf"
@@ -54,7 +74,7 @@
             <p>This browser does not support PDF!</p>
             </iframe>
           </object>
-        </div>
+        </div> -->
 <!--         <div class="rectangle-2-jps">
         </div>
         <div class="rectangle-7-ruV">
