@@ -724,4 +724,29 @@ background-color: #ffffff;
       position: absolute;
       bottom:-650px;
     }
+    .food {
+    width: 250px;
+    height: 340px;
+    position: absolute;
+    top: 180px;
+    left: 45px;
+    border-radius: 20px;
+  }
+  .scrollable-text{
+    margin-top: 600px;
+    left: 1rem;
+    position: absolute;
+  }
+  .scrol_bg{
+    width: 330px;
+    height:385px ;
+    position: absolute;
+    left: 0.5rem;
+    right: 2rem;
+    top: 578.4px;
+    box-sizing: border-box;
+    backdrop-filter: blur(0.2rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    border-radius: 2.5rem;
+  }
 }
