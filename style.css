@@ -415,18 +415,18 @@ background-color: #ffffff;
       font-family: Inter, 'Source Sans Pro';
       white-space: nowrap;
     }
-    .desktop-1-WbR .rectangle-1-rFH {
-      width: 93%;
-      height:90rem;
-      position: absolute;
-      left: 2rem;
-      right: 2rem;
-      top: 14.9rem;
-      box-sizing: border-box;
-      backdrop-filter: blur(0.2rem);
-      background-color: rgba(217, 217, 217, 0.1000000015);
-      border-radius: 2.5rem;
-    }
+   desktop-1-WbR .rectangle-1-rFH {
+    width: 300px;
+    height:395px ;
+    position: absolute;
+    left: 2rem;
+    right: 2rem;
+    top: 14.9rem;
+    box-sizing: border-box;
+    backdrop-filter: blur(0.2rem);
+    background-color: rgba(217, 217, 217, 0.1000000015);
+    border-radius: 2.5rem;
+  }
     .desktop-1-WbR .rectangle-2-jps {
       width: 60vw;
       height: 10.7rem;
